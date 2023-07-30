@@ -51,14 +51,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Observer\CurrentConditionsDisplay.cs" />
-    <Compile Include="Observer\DisplayElement.cs" />
-    <Compile Include="Observer\Observer.cs" />
-    <Compile Include="Observer\Subject.cs" />
-    <Compile Include="Observer\WeatherData.cs" />
-    <Compile Include="Observer\WeatherStation.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.8%28x86 및 x64%29</ProductName>
@@ -69,6 +61,16 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Decorator\Beverage.cs" />
+    <Compile Include="Decorator\CondimentDecorator.cs" />
+    <Compile Include="Decorator\Espresso.cs" />
+    <Compile Include="Decorator\HouseBlend.cs" />
+    <Compile Include="Decorator\Mocha.cs" />
+    <Compile Include="Decorator\Soy.cs" />
+    <Compile Include="Decorator\StarbuzzCoffee.cs" />
+    <Compile Include="Decorator\Whip.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
