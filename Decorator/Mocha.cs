@@ -9,7 +9,22 @@
 
         public override double Cost()
         {
-            return beverage.Cost() + .20;
+            double cost = beverage.Cost();
+            if(beverage.GetSize() == Size.TALL)
+            {
+                cost += .10;
+            }
+            else if(beverage.GetSize() == Size.GRANDE)
+            {
+                cost += .15;
+
+            }
+            else if (beverage.GetSize()== Size.VENTI)
+            {
+                cost += .20;
+            }
+
+            return cost;
         }
 
         public override string GetDescription()

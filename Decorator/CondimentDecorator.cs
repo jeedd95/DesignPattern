@@ -5,5 +5,10 @@
         public Beverage beverage;
 
         public abstract override string GetDescription();
+
+       public Size GetSize()
+        {
+            return beverage.GetSize();
+        }
     }
 }
