@@ -4,6 +4,6 @@
     {
         public Beverage beverage;
 
-        public abstract string GetDescription();
+        public abstract override string GetDescription();
     }
 }
