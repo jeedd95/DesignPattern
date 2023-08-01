@@ -4,6 +4,11 @@
     {
         public Beverage beverage;
 
-        public abstract string GetDescription();
+        public abstract override string GetDescription();
+
+       public Size GetSize()
+        {
+            return beverage.GetSize();
+        }
     }
 }
