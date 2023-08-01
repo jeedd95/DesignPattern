@@ -63,14 +63,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Decorator\Beverage.cs" />
-    <Compile Include="Decorator\CondimentDecorator.cs" />
-    <Compile Include="Decorator\Espresso.cs" />
-    <Compile Include="Decorator\HouseBlend.cs" />
-    <Compile Include="Decorator\Mocha.cs" />
-    <Compile Include="Decorator\Soy.cs" />
-    <Compile Include="Decorator\StarbuzzCoffee.cs" />
-    <Compile Include="Decorator\Whip.cs" />
     <Compile Include="Factory\PersimmonPizza.cs" />
     <Compile Include="Factory\HurbPizza.cs" />
     <Compile Include="Factory\YeongDongPizzaStore.cs" />
