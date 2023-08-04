@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DesignPattern.Factory
+namespace DesignPattern.Factory.MethodType
 {
     internal class PizzaTestDrive
     {
@@ -8,7 +8,7 @@ namespace DesignPattern.Factory
         {
             PizzaStore pizzaStore = new YeongDongPizzaStore();
             Pizza pizza = pizzaStore.OrderPizza("곶감");
-            Console.WriteLine($"고객님이 주문한 {pizza.GetName}");
+            Console.WriteLine($"고객님이 주문한 {pizza.GetName} 나왔습니다");
         }
     }
 }

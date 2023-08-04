@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace DesignPattern.Factory
+namespace DesignPattern.Factory.MethodType
 {
     internal class PersimmonPizza : Pizza
     {
         public PersimmonPizza()
         {
-            name = "영동 스타일 소스와 곶감 피자";
+            name = "충북 영동 스타일 소스와 곶감 피자";
             dough = "통 호밀 도우";
             sauce = "멸치액젓 소스";
 

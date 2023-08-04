@@ -49,6 +49,7 @@
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.8">
@@ -61,17 +62,6 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Factory\PersimmonPizza.cs" />
-    <Compile Include="Factory\HurbPizza.cs" />
-    <Compile Include="Factory\YeongDongPizzaStore.cs" />
-    <Compile Include="Factory\GrapePizza.cs" />
-    <Compile Include="Factory\Pizza.cs" />
-    <Compile Include="Factory\PizzaStore.cs" />
-    <Compile Include="Factory\PizzaTestDrive.cs" />
-    <Compile Include="Factory\SimplePizzaFactory.cs" />
-    <Compile Include="Factory\GochujangPizza.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

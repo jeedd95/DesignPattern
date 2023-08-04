@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DesignPattern.Factory
+namespace DesignPattern.Factory.MethodType
 {
     /// <summary>
     /// 제품 클래스
