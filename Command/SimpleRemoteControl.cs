@@ -2,16 +2,16 @@
 {
     internal class SimpleRemoteControl
     {
-        Command slot;
+        Command command;
 
         public void SetCommand(Command command)
         {
-            slot = command;
+            this.command = command;
         }
 
         public void ButtonWasPressed()
         {
-            slot.execute();
+            command.execute();
         }
     }
 }
