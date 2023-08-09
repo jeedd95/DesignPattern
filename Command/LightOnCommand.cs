@@ -9,9 +9,14 @@
             this.light = light;
         }
 
-        public void execute()
+        public void Execute()
         {
             light.On();
+        }
+
+        public void Undo()
+        {
+            light.Off();
         }
     }
 }

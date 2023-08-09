@@ -8,5 +8,10 @@ namespace DesignPattern.Command
         {
             Console.WriteLine("버튼 켜짐");
         }
+
+        public void Off()
+        {
+            Console.WriteLine("버튼 꺼짐");
+        }
     }
 }

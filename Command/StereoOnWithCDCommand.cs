@@ -9,11 +9,16 @@
             this.stereo = stereo;
         }
 
-        public void execute()
+        public void Execute()
         {
             stereo.On();
             stereo.SetCD();
             stereo.SetVolume(11);
+        }
+
+        public void Undo()
+        {
+            throw new System.NotImplementedException();
         }
     }
 }

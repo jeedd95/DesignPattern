@@ -11,7 +11,7 @@
 
         public void ButtonWasPressed()
         {
-            command.execute();
+            command.Execute();
         }
     }
 }

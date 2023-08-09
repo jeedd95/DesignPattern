@@ -63,14 +63,5 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup />
-  <ItemGroup>
-    <Compile Include="Command\Command.cs" />
-    <Compile Include="Command\Light.cs" />
-    <Compile Include="Command\LightOnCommand.cs" />
-    <Compile Include="Command\SimpleRemoteControl.cs" />
-    <Compile Include="Command\Stereo.cs" />
-    <Compile Include="Command\StereoOnWithCDCommand.cs" />
-    <Compile Include="Command\Tester.cs" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
