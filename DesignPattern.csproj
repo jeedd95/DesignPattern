@@ -63,11 +63,5 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <Compile Include="TemplateMethod\CaffeineBeverage.cs" />
-    <Compile Include="TemplateMethod\Coffee.cs" />
-    <Compile Include="TemplateMethod\Tea.cs" />
-    <Compile Include="TemplateMethod\Tester.cs" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
