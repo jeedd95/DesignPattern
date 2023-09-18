@@ -63,5 +63,12 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Compile Include="State\GumballMachine.cs" />
+    <Compile Include="State\SoldOutState.cs" />
+    <Compile Include="State\SoldState.cs" />
+    <Compile Include="State\State.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
