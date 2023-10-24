@@ -21,7 +21,7 @@
 
         public void InsertQuarter()
         {
-            gumballMachine.SetState(gumballMachine.GetHasQuarterState());
+           // gumballMachine.SetState(gumballMachine.GetHasQuarterState());
         }
 
         public void TurnCrank()
